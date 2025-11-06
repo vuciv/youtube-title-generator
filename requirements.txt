@@ -1,2 +1,12 @@
 youtube-transcript-api
-pytube
+pytubefix
+requests
+python-dotenv
+google-genai
+google-api-python-client
+openai
+pandas
+tqdm
+
+# For image processing
+Pillow

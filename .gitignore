@@ -1,3 +1,13 @@
-*.json
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
 .env
+
+# IDE
+.vscode/
+.idea/
 venv/
