@@ -32,10 +32,11 @@ ENV/
 data/training_data.json
 data/urls.txt
 data/kaggle/
+data/US_youtube_trending_data.csv
 *.jsonl
 openai_title_training_data.jsonl
-# Large CSV files (uncomment if you don't want to track them)
-# *.csv
+# Large CSV files - GitHub has 100MB file size limit
+*.csv
 
 # Logs
 *.log
