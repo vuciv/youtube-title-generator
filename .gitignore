@@ -2,12 +2,44 @@
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
 
-# Environment
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment variables
 .env
+.env.local
 
 # IDE
 .vscode/
 .idea/
-venv/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files
+data/training_data.json
+data/urls.txt
+data/kaggle/
+*.jsonl
+openai_title_training_data.jsonl
+# Large CSV files (uncomment if you don't want to track them)
+# *.csv
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
